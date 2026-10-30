@@ -1,0 +1,98 @@
+{
+ "created": "2026-10-30 18:40:05",
+ "features": [
+  "fi64",
+  "hf64",
+  "fi128",
+  "hf128",
+  "fi256",
+  "hf256",
+  "domf",
+  "spent",
+  "stepreg",
+  "rel_lloc256",
+  "rel_lfrz256",
+  "rel_lhi256",
+  "rel_lloc128",
+  "rel_ljerk",
+  "d4_fi128",
+  "d8_fi128",
+  "d4_fi256",
+  "d8_fi256",
+  "d4_lloc128",
+  "d8_lloc128",
+  "d4_lfrz128",
+  "d8_lfrz128",
+  "d4_domf",
+  "d8_domf",
+  "d4_stepreg",
+  "d8_stepreg"
+ ],
+ "contexts": {
+  "lab": [
+   "tdcsfog",
+   "daphnet"
+  ],
+  "home": [
+   "defog"
+  ]
+ },
+ "pre_train_s": 2.0,
+ "sklearn": "1.3.2",
+ "model": {
+  "file": "v2_model.pkl",
+  "sha256": "63ca518cd55b9ddaeeaee2d88f69066b18c92ae3123529ff47bda41bb3f5ecbc"
+ },
+ "lab": {
+  "5": {
+   "on": 1.5346,
+   "off": -0.47066905059814457,
+   "k": 8,
+   "hold": 12,
+   "g": null
+  },
+  "10": {
+   "on": 0.8556,
+   "off": -1.1496690505981446,
+   "k": 8,
+   "hold": 12,
+   "g": null
+  },
+  "15": {
+   "on": 0.621,
+   "off": -1.3842690505981445,
+   "k": 8,
+   "hold": 12,
+   "g": null
+  }
+ },
+ "home": {
+  "5": {
+   "on": 2.1276,
+   "off": 0.6834338165283205,
+   "k": 8,
+   "hold": 4,
+   "g": null
+  },
+  "10": {
+   "on": 1.71,
+   "off": 0.2658338165283203,
+   "k": 8,
+   "hold": 4,
+   "g": null
+  },
+  "15": {
+   "on": 1.196,
+   "off": -0.24816618347167974,
+   "k": 8,
+   "hold": 12,
+   "g": null
+  }
+ },
+ "code_sha256": {
+  "fi2_features.py": "6cc99beb35693966b204df2151f53a6072ee2b68c4ba3a24d90b8d4e9cdaa75b",
+  "s11_v2_develop.py": "25492fafb17689a3463e46b0ede79588018bcfc66ff9739daf8357d4b49da40f",
+  "fi_core.py": "fad95de9f085d5cb1bec5cdd1899334da789b8ce8ef80f5520e7a4e019fe9b6a",
+  "fi_select.py": "69aeaaedb72d708235f758480ad83531d57317eed2bbde30e54fcbf97bb29348"
+ }
+}

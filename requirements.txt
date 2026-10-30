@@ -1,0 +1,6 @@
+numpy
+scipy
+pandas
+scikit-learn
+matplotlib
+torch  # optional, step 4 only

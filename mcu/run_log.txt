@@ -1,0 +1,11 @@
+emulated core: cortex-m4, samples 104261, decisions 6517, wall time 6.8 s
+max |FI_arm - FI_python| = 7.79e-05, max |logP_arm - logP_python| = 7.73e-05 over 6517 decisions
+executed instructions per decision: 112128 (includes pushing 16 samples)
+approx. cycles per decision (Cortex-M4 TRM timings, no wait states): 141360
+=> 2.21 ms per decision at 64 MHz, duty cycle 0.88% at 4 decisions/s
+lower bound (1 cycle per instruction): 1.75 ms at 64 MHz
+memory (from size.txt): see .text + .rodata = flash, .bss + stack (76 B) = RAM
+  .text               2152           0
+  .rodata             1156        2152
+  .bss                4112   536870912
+saved mcu_results.txt

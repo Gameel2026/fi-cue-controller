@@ -1,0 +1,11 @@
+fi_mcu.elf  :
+section             size        addr
+.text               3776           0
+.rodata             1156        3776
+.ARM.exidx            48        4932
+.bss                4364   536870912
+.comment              66           0
+.ARM.attributes       73           0
+Total               9483
+
+

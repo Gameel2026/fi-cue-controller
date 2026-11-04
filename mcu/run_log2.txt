@@ -1,0 +1,46 @@
+  tdcsfog daeef51577 done
+  tdcsfog d210fc11bf done
+  tdcsfog 08e8e06116 done
+  tdcsfog cd23f96303 done
+  tdcsfog 867e5f1732 done
+  tdcsfog ff4f844fd3 done
+  tdcsfog 150e8227fc done
+  tdcsfog 4377dcaba1 done
+  tdcsfog 2e3b57b4e8 done
+  tdcsfog 7d42d53fdd done
+  defog edd79a7494 done
+  defog f17eacf7d8 done
+  defog 77d7d95074 done
+  defog 2a01c919c0 done
+  defog c50f164e00 done
+  defog 68e7e02a47 done
+  defog 28209b9006 done
+  defog daa4d27db4 done
+  defog 8e5d9c4e16 done
+  defog 850748a138 done
+  daphnet daphnet_S06R01 done
+  daphnet daphnet_S05R01 done
+  daphnet daphnet_S07R01 done
+  daphnet daphnet_S07R02 done
+  daphnet daphnet_S01R01 done
+  daphnet daphnet_S02R02 done
+  daphnet daphnet_S03R03 done
+  daphnet daphnet_S01R02 done
+  daphnet daphnet_S09R01 done
+  daphnet daphnet_S02R01 done
+emulated core: cortex-m4
+daphnet  D3_FI_gate_smooth_hyst   recordings 10 decisions   66524 cue-on   9361 agreement 100.0000% max|dFI| 1.0e-04
+daphnet  D4_D3_plus_arrest        recordings 10 decisions   66524 cue-on  11705 agreement 100.0000% max|dFI| 1.0e-04
+defog    D3_FI_gate_smooth_hyst   recordings 10 decisions   53287 cue-on   1429 agreement 100.0000% max|dFI| 1.0e-04
+defog    D4_D3_plus_arrest        recordings 10 decisions   53287 cue-on   3769 agreement 100.0000% max|dFI| 1.0e-04
+tdcsfog  D3_FI_gate_smooth_hyst   recordings 10 decisions    4276 cue-on   1971 agreement 100.0000% max|dFI| 5.7e-05
+tdcsfog  D4_D3_plus_arrest        recordings 10 decisions    4276 cue-on   1987 agreement 100.0000% max|dFI| 5.7e-05
+overall cue-decision agreement: 100.0000% of 248174 decisions
+full controller (D4, worst case) instructions per decision: 113121
+approx. cycles per decision (Cortex-M4 TRM timings, zero wait states): 142774
+=> 2.23 ms per decision at 64 MHz, CPU duty 0.89% at 4 decisions/s
+lower bound (1 cycle per instruction): 1.77 ms at 64 MHz
+  .text               3776           0
+  .rodata             1156        3776
+  .bss                4364   536870912
+saved mcu_results.txt and mcu_agreement.csv

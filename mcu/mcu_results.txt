@@ -1,0 +1,31 @@
+emulated core: cortex-m4
+development (10 random tdcsfog              D3_FI_gate_smooth_hyst   recs  10 decisions    4276 cue-on   1971 agreement 100.0000% max|dFI| 5.7e-05
+development (10 random tdcsfog              D4_D3_plus_arrest        recs  10 decisions    4276 cue-on   1987 agreement 100.0000% max|dFI| 5.7e-05
+development (10 random defog                D3_FI_gate_smooth_hyst   recs  10 decisions   53287 cue-on   1429 agreement 100.0000% max|dFI| 1.0e-04
+development (10 random defog                D4_D3_plus_arrest        recs  10 decisions   53287 cue-on   3769 agreement 100.0000% max|dFI| 1.0e-04
+development (10 random daphnet              D3_FI_gate_smooth_hyst   recs  10 decisions   66524 cue-on   9361 agreement 100.0000% max|dFI| 1.0e-04
+development (10 random daphnet              D4_D3_plus_arrest        recs  10 decisions   66524 cue-on  11705 agreement 100.0000% max|dFI| 1.0e-04
+test (all recordings)  kaggle_test_tdcsfog  D3_FI_gate_smooth_hyst   recs 104 decisions   38658 cue-on  13343 agreement 100.0000% max|dFI| 9.9e-05
+test (all recordings)  kaggle_test_tdcsfog  D4_D3_plus_arrest        recs 104 decisions   38658 cue-on  13979 agreement 100.0000% max|dFI| 9.9e-05
+test (all recordings)  kaggle_test_defog    D3_FI_gate_smooth_hyst   recs  46 decisions  294434 cue-on   7376 agreement 100.0000% max|dFI| 1.4e-04
+test (all recordings)  kaggle_test_defog    D4_D3_plus_arrest        recs  46 decisions  294434 cue-on  21548 agreement 100.0000% max|dFI| 1.4e-04
+test (all recordings)  fogstar              D3_FI_gate_smooth_hyst   recs  96 decisions   20286 cue-on   1135 agreement 100.0000% max|dFI| 1.5e-04
+test (all recordings)  fogstar              D4_D3_plus_arrest        recs  96 decisions   20286 cue-on   1220 agreement 100.0000% max|dFI| 1.5e-04
+test (all recordings)  multimodal           D3_FI_gate_smooth_hyst   recs  25 decisions   22061 cue-on   4346 agreement 100.0000% max|dFI| 9.2e-05
+test (all recordings)  multimodal           D4_D3_plus_arrest        recs  25 decisions   22061 cue-on   4390 agreement 100.0000% max|dFI| 9.2e-05
+test (all recordings)  stanford             D3_FI_gate_smooth_hyst   recs  60 decisions   20593 cue-on   2512 agreement 100.0000% max|dFI| 8.9e-05
+test (all recordings)  stanford             D4_D3_plus_arrest        recs  60 decisions   20593 cue-on   2548 agreement 100.0000% max|dFI| 8.9e-05
+development (10 random recordings): cue-decision agreement 100.0000% of 248174 decisions in 30 recordings (0 mismatches)
+test (all recordings): cue-decision agreement 100.0000% of 792064 decisions in 331 recordings (0 mismatches)
+full controller (D4, worst case), per decision:
+  executed instructions 113121, 32-bit instruction fetches 110320, data reads from flash 872
+  95% of executed instructions come from 134 instructions in a 524-byte code region
+  99% of executed instructions come from 267 instructions in a 3416-byte code region
+  approx. core cycles (Cortex-M4 TRM timings): 142774
+  flash wait states 0, no cache (upper bound): 142774 cycles = 2.23 ms at 64 MHz, CPU load 0.89% at 4 decisions/s
+  flash wait states 1, no cache (upper bound): 253966 cycles = 3.97 ms at 64 MHz, CPU load 1.59% at 4 decisions/s
+  flash wait states 2, no cache (upper bound): 365159 cycles = 5.71 ms at 64 MHz, CPU load 2.28% at 4 decisions/s
+  lower bound (1 cycle per instruction): 1.77 ms at 64 MHz
+  .text               3776           0
+  .rodata             1156        3776
+  .bss                4364   536870912

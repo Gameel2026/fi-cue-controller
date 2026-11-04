@@ -1,0 +1,63 @@
+kaggle_test_tdcsfog done
+kaggle_test_defog done
+fogstar done
+multimodal done
+stanford done
+
+PER-PATIENT SUMMARY
+             dataset                detector  patients  above_chance  below_chance  p_below_005  median_gain  wilcoxon_p  sign_test_p  patients_ge5_episodes  above_chance_ge5
+ kaggle_test_tdcsfog                   D0_FI         9             3             6            1       -0.915       0.898        0.910                      9                 3
+ kaggle_test_tdcsfog  D3_FI_gate_smooth_hyst         9             6             3            3        2.669       0.150        0.254                      9                 6
+ kaggle_test_tdcsfog       D4_D3_plus_arrest         9             6             3            3        2.669       0.213        0.254                      9                 6
+ kaggle_test_tdcsfog             V2_GBT_hyst         9             4             5            1       -3.167       0.633        0.746                      9                 4
+   kaggle_test_defog                   D0_FI        19             2             9            1        0.000       0.949        0.994                     19                 2
+   kaggle_test_defog  D3_FI_gate_smooth_hyst        19            15             3            9        7.030       0.000        0.004                     19                15
+   kaggle_test_defog       D4_D3_plus_arrest        19            12             7            7        8.028       0.025        0.180                     19                12
+   kaggle_test_defog             V2_GBT_hyst        19             9            10            5       -0.014       0.187        0.676                     19                 9
+             fogstar                   D0_FI        16             1             3            0        0.000         NaN        0.938                      8                 1
+             fogstar  D3_FI_gate_smooth_hyst        16             4             2            0        0.000       0.078        0.344                      8                 2
+             fogstar       D4_D3_plus_arrest        16             4             4            0        0.000       0.156        0.637                      8                 2
+             fogstar             V2_GBT_hyst        16             6             2            2        0.000       0.125        0.145                      8                 6
+          multimodal                   D0_FI         6             2             1            0        0.000         NaN        0.500                      5                 2
+          multimodal  D3_FI_gate_smooth_hyst         6             4             1            1        8.639       0.062        0.188                      5                 3
+          multimodal       D4_D3_plus_arrest         6             4             1            0        8.176       0.062        0.188                      5                 3
+          multimodal             V2_GBT_hyst         6             3             2            1        5.034       0.156        0.500                      5                 2
+            stanford                   D0_FI         7             1             0            0        0.000         NaN        0.500                      7                 1
+            stanford  D3_FI_gate_smooth_hyst         7             4             1            0        0.962       0.062        0.188                      7                 4
+            stanford       D4_D3_plus_arrest         7             3             2            0        0.000       0.156        0.500                      7                 3
+            stanford             V2_GBT_hyst         7             5             1            2        1.400       0.078        0.109                      7                 5
+
+LATENCY SUMMARY (seconds from onset; negative = cue already on before onset)
+             dataset                detector  episodes  covered  median_latency_s    q1     q3  pct_on_by_onset  pct_within_1s  pct_within_2s  median_frac_of_episode  chance_median_latency_s  p_faster_than_chance
+ kaggle_test_tdcsfog                   D0_FI       352       39              5.00  3.12  16.25            10.26          10.26          10.26                    0.31                     4.21                  0.72
+ kaggle_test_tdcsfog  D3_FI_gate_smooth_hyst       352      199             -1.00 -4.00   1.75            54.77          62.81          76.88                    0.00                    -3.97                  1.00
+ kaggle_test_tdcsfog       D4_D3_plus_arrest       352      200             -1.00 -4.00   1.75            54.50          62.50          77.00                    0.00                    -3.98                  1.00
+ kaggle_test_tdcsfog             V2_GBT_hyst       352      240             -4.00 -4.00   1.00            71.25          76.67          83.33                    0.00                    -4.00                  1.00
+   kaggle_test_defog                   D0_FI       700        8              5.38  4.25   8.00             0.00          12.50          12.50                    0.29                     0.75                  0.94
+   kaggle_test_defog  D3_FI_gate_smooth_hyst       700      147             -0.75 -4.00   3.50            53.06          56.46          60.54                    0.00                    -0.83                  0.60
+   kaggle_test_defog       D4_D3_plus_arrest       700      169             -0.75 -4.00   3.50            53.25          57.40          61.54                    0.00                    -0.93                  0.74
+   kaggle_test_defog             V2_GBT_hyst       700      134             -4.00 -4.00   2.94            68.66          68.66          70.90                    0.00                    -3.86                  0.85
+             fogstar                   D0_FI        84        7              3.50  2.12   4.88            14.29          14.29          28.57                    0.46                     0.60                  0.92
+             fogstar  D3_FI_gate_smooth_hyst        84       17              2.75  1.25   4.75            23.53          23.53          41.18                    0.24                    -1.04                  0.97
+             fogstar       D4_D3_plus_arrest        84       17              2.75  1.25   4.75            23.53          23.53          41.18                    0.24                    -0.78                  0.96
+             fogstar             V2_GBT_hyst        84       35              3.00 -4.00   5.75            40.00          40.00          42.86                    0.15                    -3.88                  1.00
+          multimodal                   D0_FI       138        4              5.25  2.25  12.06             0.00           0.00          25.00                    0.50                    14.19                  0.31
+          multimodal  D3_FI_gate_smooth_hyst       138       60             -4.00 -4.00   2.81            60.00          65.00          65.00                    0.00                    -3.92                  0.87
+          multimodal       D4_D3_plus_arrest       138       60             -4.00 -4.00   2.81            60.00          65.00          65.00                    0.00                    -3.90                  0.88
+          multimodal             V2_GBT_hyst       138       81             -4.00 -4.00   3.75            60.49          60.49          65.43                    0.00                    -4.00                  1.00
+            stanford                   D0_FI       211        2              4.00  3.75   4.25             0.00           0.00           0.00                    0.72                     1.96                  0.87
+            stanford  D3_FI_gate_smooth_hyst       211       29             -4.00 -4.00   2.50            65.52          65.52          68.97                    0.00                    -4.00                  1.00
+            stanford       D4_D3_plus_arrest       211       30             -4.00 -4.00   2.44            66.67          66.67          70.00                    0.00                    -4.00                  1.00
+            stanford             V2_GBT_hyst       211       39             -4.00 -4.00   2.12            64.10          64.10          74.36                    0.00                    -3.99                  0.99C:\Users\engom\anaconda3\lib\site-packages\joblib\externals\loky\backend\context.py:136: UserWarning: Could not find the number of physical cores for the following reason:
+[WinError 2] The system cannot find the file specified
+Returning the number of logical cores instead. You can silence this warning by setting LOKY_MAX_CPU_COUNT to the number of cores you want to use.
+  warnings.warn(
+  File "C:\Users\engom\anaconda3\lib\site-packages\joblib\externals\loky\backend\context.py", line 257, in _count_physical_cores
+    cpu_info = subprocess.run(
+  File "C:\Users\engom\anaconda3\lib\subprocess.py", line 489, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "C:\Users\engom\anaconda3\lib\subprocess.py", line 854, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\engom\anaconda3\lib\subprocess.py", line 1307, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+

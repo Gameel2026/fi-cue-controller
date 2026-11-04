@@ -1,0 +1,13 @@
+4 s window (planned) tdcsfog coverage 40.0 latency 3.00 s
+4 s window (planned) defog coverage 20.3 latency 4.25 s
+4 s window (planned) daphnet coverage 44.3 latency 3.25 s
+2 s window tdcsfog coverage 42.2 latency 2.00 s
+2 s window defog coverage 19.2 latency 4.12 s
+2 s window daphnet coverage 46.4 latency 2.25 s
+              variant  dataset  episodes  median_episode_s  coverage  chance   gain  fa_per_h  false_on  timely  timely_chance  covered  on_by_onset  after_onset  median_latency_after_onset_s    q1     q3  pct_all_episodes_cued_within_2s
+ 4 s window (planned)  tdcsfog      1121              3.25     39.96   33.26   6.70     10.22      6.40    7.58           6.70      448          260          188                          3.00  2.00   4.75                            28.19
+ 4 s window (planned)    defog       804              2.50     20.27    5.82  14.46     10.07      3.62    3.86           1.45      163          120           43                          4.25  2.88  10.88                            16.04
+ 4 s window (planned)  daphnet       237              5.25     44.30   16.92  27.39     11.31     10.49    6.33           3.01      105           66           39                          3.25  2.25   4.88                            31.65
+           2 s window  tdcsfog      1121              3.25     42.19   30.76  11.43     10.55      3.05    8.47           8.70      473          235          238                          2.00  1.25   3.25                            32.74
+           2 s window    defog       804              2.50     19.15    5.55  13.60     10.94      3.12    3.86           1.57      154          106           48                          4.12  2.44  11.31                            14.43
+           2 s window  daphnet       237              5.25     46.41   16.64  29.77     13.13     10.49    6.75           3.40      110           67           43                          2.25  1.25   3.50                            36.29

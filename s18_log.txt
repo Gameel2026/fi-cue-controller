@@ -1,0 +1,82 @@
+LR tdcsfog fold 0 chosen C 0.01
+LR tdcsfog fold 1 chosen C 10.0
+LR tdcsfog fold 2 chosen C 10.0
+LR tdcsfog fold 3 chosen C 10.0
+LR tdcsfog fold 4 chosen C 10.0
+{'model': 'D5 LR', 'version': 'default', 'dataset': 'tdcsfog', 'coverage': 39.87511150758252, 'chance': 36.03300624442463, 'gain': 3.8421052631578902, 'fa_per_h': 10.94086361909586, 'false_on': 9.327876082230148, 'timely': 5.084745762711865, 'window_auc': 0.8609033733642659}
+{'model': 'D5 LR', 'version': 'tuned', 'dataset': 'tdcsfog', 'coverage': 39.87511150758252, 'chance': 36.03389830508475, 'gain': 3.8412132024977694, 'fa_per_h': 10.94086361909586, 'false_on': 9.327876082230148, 'timely': 5.084745762711865, 'window_auc': 0.8607497531397195}
+LR defog fold 0 chosen C 10.0
+LR defog fold 1 chosen C 0.01
+LR defog fold 2 chosen C 1.0
+LR defog fold 3 chosen C 10.0
+LR defog fold 4 chosen C 10.0
+{'model': 'D5 LR', 'version': 'default', 'dataset': 'defog', 'coverage': 26.243781094527364, 'chance': 9.246268656716417, 'gain': 16.997512437810947, 'fa_per_h': 9.631111408367635, 'false_on': 5.840096387733297, 'timely': 4.601990049751244, 'window_auc': 0.7328573342314848}
+{'model': 'D5 LR', 'version': 'tuned', 'dataset': 'defog', 'coverage': 26.243781094527364, 'chance': 9.23818407960199, 'gain': 17.005597014925375, 'fa_per_h': 9.631111408367635, 'false_on': 5.839338622534421, 'timely': 4.477611940298507, 'window_auc': 0.7328308024678493}
+LR daphnet fold 0 chosen C 10.0
+LR daphnet fold 1 chosen C 10.0
+LR daphnet fold 2 chosen C 0.01
+LR daphnet fold 3 chosen C 0.01
+LR daphnet fold 4 chosen C 0.01
+{'model': 'D5 LR', 'version': 'default', 'dataset': 'daphnet', 'coverage': 79.32489451476793, 'chance': 30.50632911392405, 'gain': 48.81856540084388, 'fa_per_h': 9.088359046283308, 'false_on': 17.89156933748151, 'timely': 10.126582278481013, 'window_auc': 0.8368641507016441}
+{'model': 'D5 LR', 'version': 'tuned', 'dataset': 'daphnet', 'coverage': 73.83966244725738, 'chance': 28.09493670886076, 'gain': 45.744725738396625, 'fa_per_h': 6.664796633941093, 'false_on': 17.40024821067306, 'timely': 7.59493670886076, 'window_auc': 0.8365959861786871}
+GBT fold 0 config 0 inner AUC 0.7555 2.1 min
+GBT fold 0 config 1 inner AUC 0.7575 2.8 min
+GBT fold 0 config 2 inner AUC 0.7593 3.7 min
+GBT fold 0 config 3 inner AUC 0.7566 4.2 min
+GBT fold 0 config 4 inner AUC 0.7568 4.8 min
+GBT fold 0 config 5 inner AUC 0.7551 5.7 min
+GBT fold 1 config 0 inner AUC 0.8135 7.0 min
+GBT fold 1 config 1 inner AUC 0.8119 7.6 min
+GBT fold 1 config 2 inner AUC 0.8090 8.6 min
+GBT fold 1 config 3 inner AUC 0.8109 9.0 min
+GBT fold 1 config 4 inner AUC 0.8077 9.6 min
+GBT fold 1 config 5 inner AUC 0.8034 10.6 min
+GBT fold 2 config 0 inner AUC 0.8314 11.5 min
+GBT fold 2 config 1 inner AUC 0.8336 12.2 min
+GBT fold 2 config 2 inner AUC 0.8344 13.2 min
+GBT fold 2 config 3 inner AUC 0.8319 13.6 min
+GBT fold 2 config 4 inner AUC 0.8323 14.2 min
+GBT fold 2 config 5 inner AUC 0.8308 15.1 min
+GBT fold 3 config 0 inner AUC 0.8270 16.4 min
+GBT fold 3 config 1 inner AUC 0.8255 17.0 min
+GBT fold 3 config 2 inner AUC 0.8230 17.9 min
+GBT fold 3 config 3 inner AUC 0.8205 18.2 min
+GBT fold 3 config 4 inner AUC 0.8192 18.8 min
+GBT fold 3 config 5 inner AUC 0.8159 19.6 min
+GBT fold 4 config 0 inner AUC 0.8176 20.6 min
+GBT fold 4 config 1 inner AUC 0.8192 21.1 min
+GBT fold 4 config 2 inner AUC 0.8193 22.0 min
+GBT fold 4 config 3 inner AUC 0.8176 22.4 min
+GBT fold 4 config 4 inner AUC 0.8172 23.0 min
+GBT fold 4 config 5 inner AUC 0.8144 23.8 min
+{'model': 'GBT', 'version': 'default', 'dataset': 'daphnet', 'coverage': 62.447257383966246, 'chance': 23.445147679324897, 'gain': 39.00210970464135, 'fa_per_h': 6.260869565217391, 'false_on': 14.77363526631645, 'timely': 4.219409282700422, 'window_auc': 0.8411187149108892}
+{'model': 'GBT', 'version': 'default', 'dataset': 'defog', 'coverage': 21.890547263681594, 'chance': 10.600746268656717, 'gain': 11.289800995024876, 'fa_per_h': 8.317778034499321, 'false_on': 4.2237832185319055, 'timely': 4.477611940298507, 'window_auc': 0.7982448987626298}
+{'model': 'GBT', 'version': 'default', 'dataset': 'tdcsfog', 'coverage': 48.61730597680642, 'chance': 44.03835860838537, 'gain': 4.578947368421048, 'fa_per_h': 9.833752419544492, 'false_on': 10.532546209970057, 'timely': 5.263157894736842, 'window_auc': 0.8661860987981176}
+{'model': 'GBT', 'version': 'tuned', 'dataset': 'daphnet', 'coverage': 66.24472573839662, 'chance': 24.647679324894515, 'gain': 41.59704641350211, 'fa_per_h': 7.068723702664796, 'false_on': 15.125550398667142, 'timely': 4.641350210970464, 'window_auc': 0.8465506183271777}
+{'model': 'GBT', 'version': 'tuned', 'dataset': 'defog', 'coverage': 22.263681592039802, 'chance': 10.604477611940299, 'gain': 11.659203980099504, 'fa_per_h': 8.05511135972566, 'false_on': 4.29349761682845, 'timely': 4.104477611940299, 'window_auc': 0.794967305844662}
+{'model': 'GBT', 'version': 'tuned', 'dataset': 'tdcsfog', 'coverage': 52.54237288135594, 'chance': 47.29438001784121, 'gain': 5.247992863514725, 'fa_per_h': 10.875739430886956, 'false_on': 12.22929739181567, 'timely': 5.798394290811775, 'window_auc': 0.8614706286677482}
+C:\Users\engom\anaconda3\lib\site-packages\joblib\externals\loky\backend\context.py:136: UserWarning: Could not find the number of physical cores for the following reason:
+[WinError 2] The system cannot find the file specified
+Returning the number of logical cores instead. You can silence this warning by setting LOKY_MAX_CPU_COUNT to the number of cores you want to use.
+  warnings.warn(
+  File "C:\Users\engom\anaconda3\lib\site-packages\joblib\externals\loky\backend\context.py", line 257, in _count_physical_cores
+    cpu_info = subprocess.run(
+  File "C:\Users\engom\anaconda3\lib\subprocess.py", line 489, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "C:\Users\engom\anaconda3\lib\subprocess.py", line 854, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\engom\anaconda3\lib\subprocess.py", line 1307, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+ model  version  dataset  coverage  chance    gain  fa_per_h  false_on  timely  window_auc
+ D5 LR  default  tdcsfog    39.875  36.033   3.842    10.941     9.328   5.085       0.861
+ D5 LR    tuned  tdcsfog    39.875  36.034   3.841    10.941     9.328   5.085       0.861
+ D5 LR  default    defog    26.244   9.246  16.998     9.631     5.840   4.602       0.733
+ D5 LR    tuned    defog    26.244   9.238  17.006     9.631     5.839   4.478       0.733
+ D5 LR  default  daphnet    79.325  30.506  48.819     9.088    17.892  10.127       0.837
+ D5 LR    tuned  daphnet    73.840  28.095  45.745     6.665    17.400   7.595       0.837
+   GBT  default  daphnet    62.447  23.445  39.002     6.261    14.774   4.219       0.841
+   GBT  default    defog    21.891  10.601  11.290     8.318     4.224   4.478       0.798
+   GBT  default  tdcsfog    48.617  44.038   4.579     9.834    10.533   5.263       0.866
+   GBT    tuned  daphnet    66.245  24.648  41.597     7.069    15.126   4.641       0.847
+   GBT    tuned    defog    22.264  10.604  11.659     8.055     4.293   4.104       0.795
+   GBT    tuned  tdcsfog    52.542  47.294   5.248    10.876    12.229   5.798       0.861

@@ -1,0 +1,64 @@
+kaggle_test_tdcsfog done
+kaggle_test_defog done
+fogstar done
+multimodal done
+stanford done
+tdcsfog gate done
+defog gate done
+C:\Users\engom\anaconda3\lib\site-packages\joblib\externals\loky\backend\context.py:136: UserWarning: Could not find the number of physical cores for the following reason:
+[WinError 2] The system cannot find the file specified
+Returning the number of logical cores instead. You can silence this warning by setting LOKY_MAX_CPU_COUNT to the number of cores you want to use.
+  warnings.warn(
+  File "C:\Users\engom\anaconda3\lib\site-packages\joblib\externals\loky\backend\context.py", line 257, in _count_physical_cores
+    cpu_info = subprocess.run(
+  File "C:\Users\engom\anaconda3\lib\subprocess.py", line 489, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "C:\Users\engom\anaconda3\lib\subprocess.py", line 854, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "C:\Users\engom\anaconda3\lib\subprocess.py", line 1307, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+
+TEST: cue precision, cue starts per hour, window AP (prevalence = chance AP)
+             dataset                    item  cue_precision  cue_starts_per_h     ap  prevalence
+ kaggle_test_tdcsfog  D3_FI_gate_smooth_hyst          94.05             93.87    NaN         NaN
+ kaggle_test_tdcsfog       D4_D3_plus_arrest          88.03            105.79    NaN         NaN
+ kaggle_test_tdcsfog              D5_LR_hyst          93.30             66.68    NaN         NaN
+ kaggle_test_tdcsfog             V2_GBT_hyst          92.42             49.17    NaN         NaN
+ kaggle_test_tdcsfog                  AP_GBT            NaN               NaN  80.01       49.95
+ kaggle_test_tdcsfog                   AP_FI            NaN               NaN  70.95       49.95
+ kaggle_test_tdcsfog                   AP_LR            NaN               NaN  82.09       49.95
+   kaggle_test_defog  D3_FI_gate_smooth_hyst          84.76             34.16    NaN         NaN
+   kaggle_test_defog       D4_D3_plus_arrest          82.38             39.69    NaN         NaN
+   kaggle_test_defog              D5_LR_hyst          89.39             21.47    NaN         NaN
+   kaggle_test_defog             V2_GBT_hyst          68.66             21.80    NaN         NaN
+   kaggle_test_defog                  AP_GBT            NaN               NaN  46.66       17.05
+   kaggle_test_defog                   AP_FI            NaN               NaN  29.34       17.05
+   kaggle_test_defog                   AP_LR            NaN               NaN  47.09       17.05
+             fogstar  D3_FI_gate_smooth_hyst          67.57             26.26    NaN         NaN
+             fogstar       D4_D3_plus_arrest          61.90             29.81    NaN         NaN
+             fogstar              D5_LR_hyst          28.57              4.97    NaN         NaN
+             fogstar             V2_GBT_hyst          60.87             32.65    NaN         NaN
+             fogstar                  AP_GBT            NaN               NaN  40.75       19.52
+             fogstar                   AP_FI            NaN               NaN  25.64       19.52
+             fogstar                   AP_LR            NaN               NaN  20.25       19.52
+          multimodal  D3_FI_gate_smooth_hyst          91.89             48.30    NaN         NaN
+          multimodal       D4_D3_plus_arrest          88.31             50.26    NaN         NaN
+          multimodal              D5_LR_hyst          84.21             24.80    NaN         NaN
+          multimodal             V2_GBT_hyst          85.11             30.68    NaN         NaN
+          multimodal                  AP_GBT            NaN               NaN  71.57       35.76
+          multimodal                   AP_FI            NaN               NaN  56.91       35.76
+          multimodal                   AP_LR            NaN               NaN  60.25       35.76
+            stanford  D3_FI_gate_smooth_hyst          86.96             16.08    NaN         NaN
+            stanford       D4_D3_plus_arrest          88.00             17.48    NaN         NaN
+            stanford              D5_LR_hyst         100.00              5.59    NaN         NaN
+            stanford             V2_GBT_hyst          75.86             20.28    NaN         NaN
+            stanford                  AP_GBT            NaN               NaN  35.11       25.66
+            stanford                   AP_FI            NaN               NaN  20.78       25.66
+            stanford                   AP_LR            NaN               NaN  25.19       25.66
+
+DEVELOPMENT: energy gate during kinetic vs akinetic episodes
+ dataset motor_type  episodes   gate  pct_gate_closed_majority  pct_gate_closed_entire  median_closed_fraction
+ tdcsfog    kinetic      1060  3.560                     7.453                   0.755                   0.000
+ tdcsfog   akinetic        61  3.560                    29.508                   1.639                   0.100
+   defog    kinetic       540  3.896                     9.815                   3.333                   0.000
+   defog   akinetic       264  3.896                    46.591                  21.212                   0.352

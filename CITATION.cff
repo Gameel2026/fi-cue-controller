@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this software or its results, please cite it as below."
+title: "fi-cue-controller: measured failure modes of the Freeze Index and an interpretable freezing-of-gait cue controller"
+type: software
+authors:
+  - family-names: "Soliman"
+    given-names: "Ahmed M."
+    affiliation: "Biomedical Engineering Department, Capital University (Formerly Helwan University), Cairo, Egypt"
+  - family-names: "Gamil"
+    given-names: "Doaa Y. Nashaat"
+    affiliation: "Biomedical Engineering Department, Capital University (Formerly Helwan University), Cairo, Egypt"
+  - family-names: "Hammad"
+    given-names: "Muhammed S."
+    affiliation: "Biomedical Engineering Department, Capital University (Formerly Helwan University), Cairo, Egypt"
+  - family-names: "Hassan"
+    given-names: "Mohammed A."
+    affiliation: "Biomedical Engineering Department, Capital University (Formerly Helwan University), Cairo, Egypt"
+license: MIT
+repository-code: "https://github.com/Gameel2026/fi-cue-controller"
+keywords:
+  - freezing of gait
+  - Parkinson's disease
+  - freeze index
+  - cueing
+  - wearable sensors
+  - embedded systems

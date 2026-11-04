@@ -1,0 +1,19 @@
+{
+  "title": "fi-cue-controller: measured failure modes of the Freeze Index and an interpretable freezing-of-gait cue controller",
+  "upload_type": "software",
+  "description": "Analysis plan, amendment, code, frozen configurations, results and embedded Cortex-M4F implementation of a study that measured where the Freeze Index fails on a single lower-back accelerometer and tested an interpretable freezing-of-gait cue controller on unseen data. The plan and code were committed before the development analyses, and the controllers were frozen before any external data were opened. Raw data are not redistributed.",
+  "creators": [
+    {"name": "Soliman, Ahmed M.", "affiliation": "Biomedical Engineering Department, Capital University (Formerly Helwan University), Cairo, Egypt"},
+    {"name": "Gamil, Doaa Y. Nashaat", "affiliation": "Biomedical Engineering Department, Capital University (Formerly Helwan University), Cairo, Egypt"},
+    {"name": "Hammad, Muhammed S.", "affiliation": "Biomedical Engineering Department, Capital University (Formerly Helwan University), Cairo, Egypt"},
+    {"name": "Hassan, Mohammed A.", "affiliation": "Biomedical Engineering Department, Capital University (Formerly Helwan University), Cairo, Egypt"}
+  ],
+  "license": "MIT",
+  "keywords": ["freezing of gait", "Parkinson's disease", "freeze index", "cueing", "wearable sensors", "external validation", "embedded systems", "pre-registration"],
+  "related_identifiers": [
+    {"identifier": "10.5281/zenodo.12565292", "relation": "isDerivedFrom", "scheme": "doi"},
+    {"identifier": "10.1038/s41597-026-06645-1", "relation": "references", "scheme": "doi"},
+    {"identifier": "10.1038/s41597-022-01713-8", "relation": "references", "scheme": "doi"},
+    {"identifier": "10.1186/s12984-022-00992-x", "relation": "references", "scheme": "doi"}
+  ]
+}

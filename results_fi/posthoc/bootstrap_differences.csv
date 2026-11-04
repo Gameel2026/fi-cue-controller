@@ -1,0 +1,22 @@
+set,dataset,comparison,lo,hi
+development,tdcsfog,D3_FI_gate_smooth_hyst - D0_FI,20.087824675324672,36.52310169550181
+development,tdcsfog,D5_LR_hyst - D3_FI_gate_smooth_hyst,-4.232546800007648,4.565955220925434
+development,tdcsfog,D6_CNN_hyst - D3_FI_gate_smooth_hyst,19.78945979725038,41.07778073635469
+development,defog,D3_FI_gate_smooth_hyst - D0_FI,9.78980698266677,27.280455690405308
+development,defog,D5_LR_hyst - D3_FI_gate_smooth_hyst,-0.0030712530712529358,12.374984155152744
+development,defog,D6_CNN_hyst - D3_FI_gate_smooth_hyst,23.994685520599084,57.79175268686623
+development,daphnet,D3_FI_gate_smooth_hyst - D0_FI,12.195616883116884,38.311840029129755
+development,daphnet,D5_LR_hyst - D3_FI_gate_smooth_hyst,10.20045888177756,55.3722186904005
+development,daphnet,D6_CNN_hyst - D3_FI_gate_smooth_hyst,19.569261312556193,68.98700293482116
+external,fogstar,D3_FI_gate_smooth_hyst - D0_FI,2.496323529411765,24.324324324324323
+external,fogstar,D3_FI_gate_smooth_hyst - D5_LR_hyst,6.3624401913875595,36.084667690282956
+external,fogstar,D3_FI_gate_smooth_hyst - D6_CNN_hyst,0.0,21.90977443609022
+external,fogstar,D3_FI_gate_smooth_hyst - D5b_LR_posture_free,-1.003735632183908,13.584490740740739
+external,multimodal,D3_FI_gate_smooth_hyst - D0_FI,11.624819921794607,78.13854166666665
+external,multimodal,D3_FI_gate_smooth_hyst - D5_LR_hyst,-9.090909090909093,55.07246376811594
+external,multimodal,D3_FI_gate_smooth_hyst - D6_CNN_hyst,-17.1875,37.69852941176465
+external,multimodal,D3_FI_gate_smooth_hyst - D5b_LR_posture_free,0.0,13.46354166666667
+external,stanford,D3_FI_gate_smooth_hyst - D0_FI,2.088387086270615,34.97045902136039
+external,stanford,D3_FI_gate_smooth_hyst - D5_LR_hyst,1.226560953888779,31.53804093110451
+external,stanford,D3_FI_gate_smooth_hyst - D6_CNN_hyst,-38.20958039176692,-5.461613515699165
+external,stanford,D3_FI_gate_smooth_hyst - D5b_LR_posture_free,-2.656522786105592,11.801242236024844

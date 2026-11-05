@@ -1,4 +1,5 @@
 # fi-cue-controller
+[![DOI](https://zenodo.org/badge/1439634254.svg)](https://doi.org/10.5281/zenodo.23955452)
 
 Measured failure modes of the Freeze Index and an interpretable freezing-of-gait (FoG) cue controller, tested on unseen data with a single lower-back accelerometer.
 

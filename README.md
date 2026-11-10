@@ -16,6 +16,8 @@ The plan was committed before the development analyses. The controllers were fro
 | 7875f63 | Amendment 1: v2 controller plan and code, committed before v2 development. |
 | 568dc47 | Frozen v2 configuration, committed before any v2 test. |
 | f1d7ae5 | v2 and frozen v1 test results on the held-out contest test recordings (run once). |
+| bd0d198 | Post hoc strict episode-coverage script (`s22_strict_coverage.py`), committed before it was run. |
+| b1e89c2 | Strict episode-coverage results and Benjamini–Hochberg correction (`results_fi/posthoc/strict_coverage*.csv`). |
 
 Later commits add the post hoc checks, the embedded implementation and the archive metadata.
 
@@ -34,7 +36,8 @@ Later commits add the post hoc checks, the embedded implementation and the archi
 | External test | `s7_external_review.py`, `s8_external_test.py`, `s9_figures.py` |
 | Post hoc | `s10_posthoc.py` |
 | Amendment 1 (v2) | `s11_v2_develop.py`, `s12_kaggle_test_prep.py`, `s13_v2_test.py` |
-| Further checks | `s14_sensitivity.py`, `s15_patient_latency.py`, `s16_latency_window.py`, `s17_home_smoothing.py`, `s18_nested_tuning.py`, `s19_precision_gate_ap.py` |
+| Further checks | `s14_sensitivity.py`, `s15_patient_latency.py`, `s16_latency_window.py`, `s17_home_smoothing.py`, `s18_nested_tuning.py`, `s19_precision_gate_ap.py`, `s20_precision_chance_cnn_test.py`, `s21_timing_literature_fi.py` |
+| Strict episode coverage (post hoc) | `s22_strict_coverage.py`, `s23_strict_bh.py` |
 | Embedded | `mcu/` (C code for a Cortex-M4F, emulator run and agreement with Python) |
 
 Shared settings are in `fi_config.py`. Set the data paths to local copies of the datasets before running.
